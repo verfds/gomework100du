@@ -1,0 +1,942 @@
+* {
+  margin: 0px;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
+i {
+  font-style: normal; }
+
+a {
+  text-decoration: none;
+  color: #1b1b1d; }
+
+.w962 {
+  width: 962px;
+  margin: 0 auto; }
+
+.header {
+  height: 30px;
+  background: #fcfcfc; }
+  .header .w962 .left {
+    float: left; }
+    .header .w962 .left ul {
+      margin-left: 20px; }
+      .header .w962 .left ul li {
+        display: inline-block;
+        font-size: 12px; }
+        .header .w962 .left ul li a {
+          display: block;
+          width: 39px;
+          height: 19px;
+          line-height: 19px;
+          text-align: center;
+          border: 1px gainsboro solid;
+          border-radius: 4px;
+          color: #9a9a9a; }
+          .header .w962 .left ul li a:hover {
+            color: red; }
+  .header .w962 .right {
+    float: right;
+    margin-right: 28px; }
+    .header .w962 .right P {
+      height: 13px;
+      float: left;
+      margin-left: 6px;
+      padding-left: 8px;
+      border-left: 1px gray solid;
+      margin-top: 8px;
+      line-height: 13px; }
+      .header .w962 .right P:first-child {
+        border-left: 1px transparent solid; }
+      .header .w962 .right P a {
+        font-size: 12px;
+        color: black; }
+        .header .w962 .right P a img {
+          margin-right: 10px; }
+
+.mainbav {
+  height: 90px; }
+  .mainbav .w962 {
+    position: relative; }
+    .mainbav .w962 .logo {
+      width: 226px;
+      height: 60px;
+      margin: 0 auto;
+      padding-top: 12px; }
+    .mainbav .w962 .left {
+      float: left; }
+      .mainbav .w962 .left ul {
+        padding-top: 12px; }
+        .mainbav .w962 .left ul li {
+          display: inline-block;
+          margin-left: 22px; }
+          .mainbav .w962 .left ul li:hover a {
+            color: red; }
+          .mainbav .w962 .left ul li img {
+            width: 43px;
+            height: 43px; }
+          .mainbav .w962 .left ul li a {
+            display: block;
+            text-align: center;
+            font-size: 12px; }
+    .mainbav .w962 .right {
+      float: right;
+      position: absolute;
+      right: 0px;
+      top: 12px; }
+      .mainbav .w962 .right ul li {
+        float: left;
+        margin-left: 20px;
+        text-align: center; }
+        .mainbav .w962 .right ul li:hover a {
+          color: red; }
+        .mainbav .w962 .right ul li img {
+          width: 43px;
+          height: 43px; }
+        .mainbav .w962 .right ul li a {
+          display: block;
+          text-align: center;
+          font-size: 12px; }
+
+.shop {
+  height: 126px; }
+  .shop .w962 {
+    position: relative; }
+    .shop .w962 .border {
+      height: 112px;
+      width: 100%;
+      border: 1px gainsboro solid;
+      border-radius: 10px;
+      position: absolute;
+      z-index: -1;
+      top: 10px; }
+    .shop .w962 .nav {
+      margin-left: 228px; }
+      .shop .w962 .nav ul li {
+        display: inline-block;
+        width: 82px;
+        height: 28px;
+        background: white;
+        border-right: 1px #f8d0bf solid;
+        border-left: 1px #f8d0bf solid;
+        border-top: 1px #f8d0bf solid;
+        border-radius: 4px 4px 0 0;
+        text-align: center;
+        line-height: 28px; }
+        .shop .w962 .nav ul li:hover {
+          background: #e21c01;
+          color: white; }
+    .shop .w962 .img {
+      position: absolute;
+      top: 8px;
+      left: 33px; }
+    .shop .w962 .search {
+      width: 100%;
+      height: 66px;
+      background: #e21c01;
+      border-radius: 3px; }
+      .shop .w962 .search .fud {
+        margin-left: 228px;
+        position: relative; }
+        .shop .w962 .search .fud input {
+          width: 406px;
+          height: 22px;
+          border-radius: 4px;
+          position: absolute;
+          top: 20px; }
+        .shop .w962 .search .fud a img {
+          position: absolute;
+          top: 23px;
+          left: 416px; }
+        .shop .w962 .search .fud p {
+          width: 200px;
+          height: 31px;
+          float: right;
+          font-size: 12px;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          .shop .w962 .search .fud p a {
+            display: inline-block;
+            color: white; }
+            .shop .w962 .search .fud p a:hover {
+              text-decoration: underline; }
+    .shop .w962 .sidebar img {
+      margin-left: 228px; }
+    .shop .w962 .sidebar p {
+      display: inline-block;
+      font-size: 12px;
+      margin-left: 8px; }
+      .shop .w962 .sidebar p:nth-child(2) {
+        color: #d30703; }
+      .shop .w962 .sidebar p:nth-child(3) {
+        color: #999; }
+    .shop .w962 .sidebar .sanjiao {
+      display: inline-block;
+      margin-left: 50px; }
+      .shop .w962 .sidebar .sanjiao a {
+        display: block;
+        width: 1px;
+        height: 1px;
+        border: 5px red solid; }
+        .shop .w962 .sidebar .sanjiao a:first-child {
+          border-top: 5px transparent solid;
+          border-right: 5px transparent solid;
+          border-left: 5px transparent solid;
+          margin-bottom: 4px; }
+        .shop .w962 .sidebar .sanjiao a:last-child {
+          border-bottom: 5px transparent solid;
+          border-right: 5px transparent solid;
+          border-left: 5px transparent solid; }
+        .shop .w962 .sidebar .sanjiao a:hover {
+          border: #9a9a9a; }
+
+.content .w962 {
+  position: relative; }
+  .content .w962 .video {
+    width: 320px;
+    height: 400px;
+    border: 1px #e5e5e5 solid;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px; }
+    .content .w962 .video h3 {
+      color: red; }
+    .content .w962 .video img {
+      margin-top: 10px; }
+    .content .w962 .video ul {
+      display: inline-block;
+      margin-left: 20px;
+      margin-top: 10px;
+      list-style-position: inside; }
+      .content .w962 .video ul li a {
+        font-size: 12px;
+        color: #9a9a9a; }
+        .content .w962 .video ul li a:hover {
+          color: red; }
+  .content .w962 .xiaochi {
+    width: 320px;
+    height: 400px;
+    border: 1px #e5e5e5 solid;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px; }
+    .content .w962 .xiaochi .p {
+      width: 150px;
+      height: 33px;
+      display: inline-block;
+      border-top: 1px gainsboro solid;
+      border-right: 1px gainsboro solid;
+      border-left: 1px gainsboro solid;
+      text-align: center;
+      line-height: 33px;
+      border-radius: 5px; }
+      .content .w962 .xiaochi .p:hover a {
+        border-top: red 5px solid; }
+      .content .w962 .xiaochi .p h5 {
+        color: red;
+        font-size: 12px;
+        display: inline-block; }
+      .content .w962 .xiaochi .p h4 {
+        font-size: 14px;
+        display: inline-block; }
+      .content .w962 .xiaochi .p a {
+        display: inline-block;
+        border: #9a9a9a 5px solid;
+        border-bottom: transparent 5px solid;
+        border-left: transparent 5px solid;
+        border-right: transparent 5px solid; }
+    .content .w962 .xiaochi .img {
+      position: absolute;
+      top: 120px;
+      left: 105px; }
+    .content .w962 .xiaochi .menu {
+      width: 318px;
+      height: 96px;
+      padding-top: 20px;
+      margin-left: 20px; }
+      .content .w962 .xiaochi .menu img {
+        display: inline-block;
+        vertical-align: top; }
+      .content .w962 .xiaochi .menu .wenzi {
+        display: inline-block;
+        font-size: 12px; }
+        .content .w962 .xiaochi .menu .wenzi p {
+          color: red; }
+        .content .w962 .xiaochi .menu .wenzi h5 {
+          color: #9a9a9a; }
+    .content .w962 .xiaochi .daohang {
+      position: absolute;
+      right: 14px;
+      bottom: 7px; }
+      .content .w962 .xiaochi .daohang a {
+        font-size: 12px; }
+  .content .w962 .login {
+    width: 238px;
+    height: 138px;
+    border: 1px #9a9a9a solid;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px; }
+    .content .w962 .login .wenzi {
+      height: 35px;
+      font-size: 12px;
+      line-height: 35px;
+      padding-left: 18px;
+      background: #f7f7f7; }
+      .content .w962 .login .wenzi span {
+        color: red; }
+    .content .w962 .login .kuangjia {
+      width: 208px;
+      height: 62px;
+      border-bottom: 1px #9a9a9a solid; }
+      .content .w962 .login .kuangjia .shuru {
+        font-size: 12px;
+        display: inline-block; }
+        .content .w962 .login .kuangjia .shuru label {
+          display: block;
+          white-space: pre;
+          text-indent: 12px; }
+          .content .w962 .login .kuangjia .shuru label input {
+            width: 90px;
+            height: 20px;
+            background: #f7f7f7; }
+      .content .w962 .login .kuangjia .radio {
+        display: inline-block;
+        font-size: 12px;
+        margin-right: -5px; }
+        .content .w962 .login .kuangjia .radio a {
+          display: block;
+          width: 52px;
+          height: 20px;
+          background: red;
+          color: white;
+          border-radius: 10px;
+          text-align: center; }
+    .content .w962 .login ul {
+      height: 33px;
+      line-height: 33px; }
+      .content .w962 .login ul li {
+        font-size: 12px;
+        width: 105px;
+        text-align: center;
+        display: inline-block; }
+  .content .w962 .img2 {
+    position: absolute;
+    top: 155px;
+    right: 8px; }
+  .content .w962 .img3 {
+    position: absolute;
+    top: 254px;
+    right: 8px; }
+
+.banner {
+  margin-top: 10px;
+  height: 1630px; }
+  .banner .w962 .left {
+    float: left;
+    width: 712px; }
+    .banner .w962 .left img {
+      overflow: hidden; }
+    .banner .w962 .left .rili {
+      width: 352px;
+      height: 488px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      float: left;
+      vertical-align: top; }
+      .banner .w962 .left .rili .riqi {
+        position: relative;
+        margin-top: 15px;
+        margin-left: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px #9a9a9a solid; }
+        .banner .w962 .left .rili .riqi h5 {
+          color: red; }
+        .banner .w962 .left .rili .riqi h3 {
+          display: inline-block; }
+        .banner .w962 .left .rili .riqi h1 {
+          display: inline-block;
+          margin-left: 10px;
+          font-size: 36px;
+          color: red; }
+        .banner .w962 .left .rili .riqi img {
+          position: absolute;
+          right: 0;
+          top: 0; }
+      .banner .w962 .left .rili .xie {
+        margin-top: 10px;
+        display: inline-block; }
+        .banner .w962 .left .rili .xie img {
+          vertical-align: top; }
+      .banner .w962 .left .rili .zhuti {
+        width: 200px;
+        height: 85px;
+        margin-top: 10px;
+        float: right; }
+        .banner .w962 .left .rili .zhuti span {
+          font-size: 12px;
+          font-weight: bold; }
+        .banner .w962 .left .rili .zhuti p {
+          font-size: 12px;
+          color: #9a9a9a; }
+      .banner .w962 .left .rili .bige .shouh {
+        height: 30px;
+        width: 300px;
+        margin: 0 auto;
+        white-space: nowrap; }
+        .banner .w962 .left .rili .bige .shouh li {
+          display: inline-block;
+          width: 38px;
+          height: 38px;
+          text-align: center;
+          line-height: 38px;
+          font-weight: bold;
+          font-size: 12px; }
+      .banner .w962 .left .rili .bige .ri {
+        width: 310px;
+        height: 250px;
+        margin-left: 16px; }
+        .banner .w962 .left .rili .bige .ri li {
+          width: 40px;
+          height: 40px;
+          float: left;
+          background: #ededed;
+          border: 2px white solid;
+          text-align: center;
+          line-height: 40px; }
+          .banner .w962 .left .rili .bige .ri li:hover {
+            background: url("../img/15.png");
+            background-size: 40px 40px; }
+        .banner .w962 .left .rili .bige .ri .bor {
+          background: #f8f8f8; }
+    .banner .w962 .left .tuijian {
+      width: 352px;
+      height: 488px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      float: right; }
+      .banner .w962 .left .tuijian .shou {
+        width: 295px;
+        height: 56px;
+        margin-left: 25px;
+        margin-top: 14px; }
+        .banner .w962 .left .tuijian .shou span {
+          color: red;
+          float: left; }
+          .banner .w962 .left .tuijian .shou span h2 {
+            color: #1b1b1d; }
+        .banner .w962 .left .tuijian .shou img {
+          float: right; }
+      .banner .w962 .left .tuijian .tup {
+        width: 320px;
+        height: 178px;
+        margin: 0 auto;
+        background: #f8f8f8;
+        border-radius: 20px; }
+        .banner .w962 .left .tuijian .tup .left {
+          width: 222px;
+          height: 132px;
+          margin-top: 13px;
+          margin-left: 12px; }
+        .banner .w962 .left .tuijian .tup .right {
+          margin-top: 13px;
+          margin-left: 10px; }
+          .banner .w962 .left .tuijian .tup .right:hover {
+            border: 1px red solid; }
+      .banner .w962 .left .tuijian ul {
+        width: 320px;
+        margin-top: 20px;
+        margin-left: 24px;
+        list-style: url("../img/22.png"); }
+        .banner .w962 .left .tuijian ul li {
+          width: 320px;
+          height: 15px;
+          line-height: 15px;
+          font-size: 12px;
+          margin-top: 12px; }
+          .banner .w962 .left .tuijian ul li a {
+            border-left: 1px #9a9a9a solid;
+            padding-left: 10px; }
+            .banner .w962 .left .tuijian ul li a:hover {
+              color: red;
+              text-decoration: underline; }
+          .banner .w962 .left .tuijian ul li span {
+            display: inline-block;
+            margin-left: 82px;
+            color: #9a9a9a; }
+    .banner .w962 .left .svbway {
+      width: 352px;
+      height: 328px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      float: left;
+      margin-top: 12px;
+      border-top: 1px transparent solid; }
+      .banner .w962 .left .svbway .left {
+        display: inline-block;
+        width: 170px;
+        height: 34px;
+        border-left: 1px #9a9a9a solid;
+        border-top: 1px #9a9a9a solid;
+        border-right: 1px #9a9a9a solid;
+        border-radius: 5px 5px 0 0;
+        text-align: center;
+        line-height: 34px;
+        font-weight: bold;
+        font-size: 12px;
+        position: relative; }
+        .banner .w962 .left .svbway .left:hover a {
+          border-top: red 7px solid;
+          border-right: transparent 7px solid;
+          border-left: transparent 7px solid;
+          border-bottom: transparent 7px solid; }
+        .banner .w962 .left .svbway .left span {
+          color: red; }
+        .banner .w962 .left .svbway .left a {
+          border-top: #9a9a9a 7px solid;
+          border-right: transparent 7px solid;
+          border-left: transparent 7px solid;
+          border-bottom: transparent 7px solid;
+          position: absolute;
+          top: 15px;
+          right: 15px; }
+      .banner .w962 .left .svbway img {
+        padding: 28px 22px 45px 23px; }
+    .banner .w962 .left .bbs {
+      width: 352px;
+      height: 304px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      width: 328px;
+      float: right;
+      margin-top: 12px;
+      padding: 12px; }
+      .banner .w962 .left .bbs .shou {
+        width: 100%;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px; }
+        .banner .w962 .left .bbs .shou span {
+          color: red; }
+        .banner .w962 .left .bbs .shou a {
+          float: right; }
+      .banner .w962 .left .bbs ul {
+        list-style-position: inside;
+        list-style-type: decimal-leading-zero; }
+        .banner .w962 .left .bbs ul .one {
+          width: 318px;
+          height: 70px;
+          background: red;
+          color: white;
+          border-radius: 10px; }
+          .banner .w962 .left .bbs ul .one img {
+            float: left;
+            margin-top: 10px;
+            margin-left: 10px; }
+          .banner .w962 .left .bbs ul .one p {
+            float: left; }
+          .banner .w962 .left .bbs ul .one h5 {
+            font-size: 12px; }
+          .banner .w962 .left .bbs ul .one h2 {
+            text-align: right; }
+        .banner .w962 .left .bbs ul .ct {
+          width: 318px;
+          height: 28px;
+          background: #f1f1f1;
+          font-size: 12px;
+          margin-top: 4px;
+          line-height: 28px; }
+          .banner .w962 .left .bbs ul .ct:hover a {
+            text-decoration: underline;
+            color: red; }
+          .banner .w962 .left .bbs ul .ct img {
+            float: left;
+            margin-top: 10px; }
+          .banner .w962 .left .bbs ul .ct .l1 {
+            float: left; }
+          .banner .w962 .left .bbs ul .ct .right {
+            float: right;
+            color: #9a9a9a; }
+    .banner .w962 .left .zhshi {
+      width: 352px;
+      height: 273px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      width: 328px;
+      float: left;
+      padding: 12px; }
+      .banner .w962 .left .zhshi .shou {
+        width: 100%;
+        height: 30px;
+        line-height: 28px;
+        font-size: 12px; }
+        .banner .w962 .left .zhshi .shou span {
+          color: red; }
+        .banner .w962 .left .zhshi .shou a {
+          float: right; }
+      .banner .w962 .left .zhshi .b1 {
+        width: 100%;
+        height: 28px;
+        margin-left: 15px; }
+        .banner .w962 .left .zhshi .b1 li {
+          width: 98px;
+          height: 26px;
+          float: left;
+          border: 1px #dadada solid;
+          border-radius: 3px;
+          text-align: center;
+          line-height: 26px; }
+          .banner .w962 .left .zhshi .b1 li:hover {
+            border-bottom: 1px transparent solid; }
+          .banner .w962 .left .zhshi .b1 li:hover a {
+            border-left: 5px transparent solid;
+            border-right: 5px transparent solid;
+            border-bottom: 5px transparent solid;
+            border-top: 5px red solid; }
+          .banner .w962 .left .zhshi .b1 li a {
+            display: inline-block;
+            border-left: 5px transparent solid;
+            border-right: 5px transparent solid;
+            border-bottom: 5px transparent solid;
+            border-top: 5px #9a9a9a solid; }
+      .banner .w962 .left .zhshi p {
+        color: #9a9a9a;
+        display: inline-block;
+        margin-left: 125px; }
+      .banner .w962 .left .zhshi .b2 li {
+        height: 30px;
+        line-height: 30px;
+        border-bottom: 1px #e5e5e5 dashed; }
+        .banner .w962 .left .zhshi .b2 li img {
+          float: right; }
+    .banner .w962 .left .saoke {
+      width: 352px;
+      height: 273px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      width: 328px;
+      float: right;
+      padding: 12px; }
+      .banner .w962 .left .saoke .shou {
+        width: 100%;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px; }
+        .banner .w962 .left .saoke .shou span {
+          color: red; }
+        .banner .w962 .left .saoke .shou a {
+          float: right; }
+      .banner .w962 .left .saoke ul li {
+        width: 78px;
+        height: 78px;
+        float: left;
+        border: 2px transparent solid; }
+        .banner .w962 .left .saoke ul li img {
+          width: 76px;
+          height: 76px; }
+    .banner .w962 .left .zaixian {
+      width: 352px;
+      height: 273px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      width: 328px;
+      float: left;
+      margin-top: 12px;
+      padding: 12px; }
+      .banner .w962 .left .zaixian .shou {
+        width: 100%;
+        height: 30px;
+        line-height: 28px;
+        font-size: 12px; }
+        .banner .w962 .left .zaixian .shou span {
+          color: red; }
+      .banner .w962 .left .zaixian .liaxi {
+        height: 102px;
+        padding-top: 28px;
+        border-bottom: 1px #e5e5e5 solid; }
+        .banner .w962 .left .zaixian .liaxi P {
+          white-space: pre-wrap;
+          text-indent: 28px;
+          font-size: 12px; }
+        .banner .w962 .left .zaixian .liaxi .z {
+          font-size: 18px;
+          font-weight: bold;
+          color: red; }
+        .banner .w962 .left .zaixian .liaxi .y {
+          text-align: right;
+          font-size: 14px; }
+    .banner .w962 .left .meiti {
+      width: 352px;
+      height: 273px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      width: 328px;
+      float: right;
+      margin-top: 12px;
+      padding: 12px; }
+      .banner .w962 .left .meiti .shou {
+        width: 100%;
+        height: 30px;
+        line-height: 28px;
+        font-size: 12px; }
+        .banner .w962 .left .meiti .shou span {
+          color: red; }
+        .banner .w962 .left .meiti .shou a {
+          float: right; }
+      .banner .w962 .left .meiti ul {
+        margin-left: 12px;
+        margin-top: 25px; }
+        .banner .w962 .left .meiti ul li {
+          margin-top: 15px;
+          width: 315px;
+          height: 36px;
+          font-size: 14px; }
+          .banner .w962 .left .meiti ul li img {
+            margin-right: 15px; }
+  .banner .w962 .right {
+    float: right; }
+    .banner .w962 .right .coupons {
+      width: 220px;
+      height: 228px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      padding: 10px 10px 0px 8px;
+      margin-top: 15px; }
+      .banner .w962 .right .coupons .shou {
+        width: 100%;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px; }
+        .banner .w962 .right .coupons .shou span {
+          color: red; }
+        .banner .w962 .right .coupons .shou a {
+          float: right; }
+      .banner .w962 .right .coupons .b1 {
+        width: 100%;
+        height: 28px;
+        margin-left: 10px;
+        font-size: 12px; }
+        .banner .w962 .right .coupons .b1 li {
+          width: 66px;
+          height: 26px;
+          float: left;
+          border: 1px #dadada solid;
+          border-radius: 3px;
+          text-align: center;
+          line-height: 26px; }
+          .banner .w962 .right .coupons .b1 li:hover {
+            border-bottom: 1px transparent solid; }
+          .banner .w962 .right .coupons .b1 li:hover a {
+            border-left: 5px transparent solid;
+            border-right: 5px transparent solid;
+            border-bottom: 5px transparent solid;
+            border-top: 5px red solid; }
+          .banner .w962 .right .coupons .b1 li a {
+            display: inline-block;
+            border-left: 5px transparent solid;
+            border-right: 5px transparent solid;
+            border-bottom: 5px transparent solid;
+            border-top: 5px #9a9a9a solid; }
+      .banner .w962 .right .coupons .z1 {
+        float: left;
+        font-size: 12px;
+        color: #9a9a9a;
+        margin-left: 60px; }
+      .banner .w962 .right .coupons .z2 {
+        font-size: 12px;
+        color: #9a9a9a;
+        float: right;
+        margin-right: 10px; }
+      .banner .w962 .right .coupons .b2 {
+        font-size: 12px;
+        width: 213px;
+        overflow: hidden; }
+        .banner .w962 .right .coupons .b2 li {
+          margin-left: 25px;
+          height: 28px;
+          line-height: 28px;
+          border-top: 1px #e5e5e5 dotted; }
+          .banner .w962 .right .coupons .b2 li i {
+            color: red;
+            margin-left: 40px; }
+          .banner .w962 .right .coupons .b2 li span {
+            color: #7d7d7d;
+            margin-left: 10px; }
+    .banner .w962 .right .shop {
+      width: 220px;
+      height: 400px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      padding: 10px 10px 0px 8px;
+      margin-top: 15px; }
+      .banner .w962 .right .shop .shou {
+        width: 100%;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px; }
+        .banner .w962 .right .shop .shou span {
+          color: red; }
+        .banner .w962 .right .shop .shou a {
+          float: right; }
+      .banner .w962 .right .shop .mun {
+        height: 85px;
+        margin-top: 5px;
+        border-bottom: 1px #e5e5e5 dotted; }
+        .banner .w962 .right .shop .mun img {
+          float: left; }
+        .banner .w962 .right .shop .mun ul {
+          float: left;
+          font-size: 12px; }
+          .banner .w962 .right .shop .mun ul .yet a {
+            color: red; }
+          .banner .w962 .right .shop .mun ul .wei {
+            color: #7d7d7d; }
+            .banner .w962 .right .shop .mun ul .wei a {
+              color: #5c5c5c; }
+    .banner .w962 .right .jiudian {
+      width: 220px;
+      height: 170px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      padding: 10px 10px 0px 8px;
+      margin-top: 15px; }
+      .banner .w962 .right .jiudian .shou {
+        width: 100%;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px; }
+        .banner .w962 .right .jiudian .shou span {
+          color: red; }
+        .banner .w962 .right .jiudian .shou a {
+          float: right; }
+      .banner .w962 .right .jiudian p {
+        font-size: 12px; }
+    .banner .w962 .right .zhekou {
+      width: 220px;
+      height: 336px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      padding: 10px 10px 0px 8px;
+      margin-top: 15px; }
+      .banner .w962 .right .zhekou .shou {
+        width: 100%;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px; }
+        .banner .w962 .right .zhekou .shou span {
+          color: red; }
+        .banner .w962 .right .zhekou .shou a {
+          float: right; }
+      .banner .w962 .right .zhekou .mun {
+        height: 85px;
+        margin-top: 5px;
+        border-bottom: 1px #e5e5e5 dotted; }
+        .banner .w962 .right .zhekou .mun img {
+          float: left; }
+        .banner .w962 .right .zhekou .mun ul {
+          float: left;
+          font-size: 12px; }
+          .banner .w962 .right .zhekou .mun ul .yet a {
+            color: red; }
+          .banner .w962 .right .zhekou .mun ul .wei {
+            color: #7d7d7d; }
+            .banner .w962 .right .zhekou .mun ul .wei a {
+              color: #5c5c5c; }
+      .banner .w962 .right .zhekou .ye ul {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 10px; }
+        .banner .w962 .right .zhekou .ye ul li {
+          color: red;
+          height: 23px;
+          line-height: 23px;
+          border-bottom: #e5e5e5 1px dotted; }
+          .banner .w962 .right .zhekou .ye ul li a {
+            color: #5c5c5c; }
+    .banner .w962 .right .jiamen {
+      width: 220px;
+      height: 360px;
+      border: 1px #e5e5e5 solid;
+      border-radius: 7px;
+      padding: 10px 10px 0px 8px;
+      margin-top: 15px; }
+      .banner .w962 .right .jiamen .shou {
+        width: 100%;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px; }
+        .banner .w962 .right .jiamen .shou span {
+          color: red; }
+        .banner .w962 .right .jiamen .shou a {
+          float: right; }
+      .banner .w962 .right .jiamen .candan {
+        width: 208px;
+        height: 150px; }
+        .banner .w962 .right .jiamen .candan .le {
+          float: left; }
+          .banner .w962 .right .jiamen .candan .le ul {
+            font-size: 12px; }
+            .banner .w962 .right .jiamen .candan .le ul .s1 a {
+              color: red; }
+            .banner .w962 .right .jiamen .candan .le ul .x1 {
+              color: #e5e5e5; }
+              .banner .w962 .right .jiamen .candan .le ul .x1 a {
+                color: #7d7d7d; }
+        .banner .w962 .right .jiamen .candan .rix {
+          float: right; }
+          .banner .w962 .right .jiamen .candan .rix ul {
+            font-size: 12px; }
+            .banner .w962 .right .jiamen .candan .rix ul .s1 a {
+              color: red; }
+            .banner .w962 .right .jiamen .candan .rix ul .x1 {
+              color: #e5e5e5; }
+              .banner .w962 .right .jiamen .candan .rix ul .x1 a {
+                color: #7d7d7d; }
+      .banner .w962 .right .jiamen .cont ul {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 0px; }
+        .banner .w962 .right .jiamen .cont ul li {
+          color: red;
+          height: 30px;
+          line-height: 30px;
+          border-top: #e5e5e5 1px dotted; }
+          .banner .w962 .right .jiamen .cont ul li a {
+            color: #5c5c5c; }
+
+.footer {
+  height: 110px;
+  overflow: hidden; }
+  .footer .w962 {
+    height: 79px;
+    background: #f9f9f9;
+    border-radius: 15px;
+    border: 1px #e5e5e5 solid;
+    margin-top: 10px; }
+    .footer .w962 ul {
+      width: 100%;
+      text-align: center;
+      margin-top: 10px; }
+      .footer .w962 ul li {
+        font-size: 12px;
+        display: inline-block;
+        border-right: 1px black solid;
+        padding-right: 7px;
+        margin-right: 7px; }
+    .footer .w962 p {
+      font-size: 12px;
+      color: #7d7d7d;
+      text-align: center;
+      margin-top: 15px; }
+
+/*# sourceMappingURL=100du.css.map */
